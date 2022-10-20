@@ -1,0 +1,29 @@
+@import "./assets/styles/index.scss";
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #0b7ad0;
+  height: 55px;
+  .header_logo {
+    height: 30px;
+    width: 40px;
+  }
+  .header_nav {
+    padding: 2rem 0rem 2rem 0rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .search_input {
+    display: flex;
+    flex-direction: row;
+    img {
+      display: inline-block;
+      width: 1em;
+      height: 1em;
+      stroke-width: 0;
+      stroke: red;
+      fill: blue;
+    }
+  }
+}

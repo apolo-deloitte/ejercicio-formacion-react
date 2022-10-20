@@ -1,24 +1,21 @@
-import logo from "./logo.svg";
 import { useTranslation } from "react-i18next";
-import "./App.css";
-
+import classes from "./App.module.scss";
+import logoibercaja from "./assets/images/logo-ibercaja.png";
+import searchicon from "./assets/images/search-icon.svg";
 function App() {
   const { t } = useTranslation();
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {t("layout.text")}
-        </a>
+      <header className={classes.header}>
+        <img className={classes.header_logo} src={logoibercaja}></img>
+        <nav className={classes.header_nav}>
+          <div>PRODUCTOS</div>
+          <div>OPERATIVAS</div>
+        </nav>
+        <div className={classes.search_input}>
+          <img src={searchicon}></img>
+          <input placeholder="componente de busqueda" />
+        </div>
       </header>
     </div>
   );
