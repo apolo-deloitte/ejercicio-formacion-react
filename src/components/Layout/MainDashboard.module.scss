@@ -1,0 +1,8 @@
+@import "/src/assets/styles/index.scss";
+$min_header-height: calculateRem(45px);
+.main_dashboard {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - #{$min_header-height});
+  padding: 0 calculateRem(20px);
+}

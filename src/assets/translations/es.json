@@ -1,7 +1,8 @@
 {
   "header": {
     "btn_operative": "OPERATIVAS",
-    "btn_products": "PRODUCTOS"
+    "btn_products": "PRODUCTOS",
+    "input_search": "Buscar en ibercaja"
   },
   "util": {
     "daysweek_long": {
