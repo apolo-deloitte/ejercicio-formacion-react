@@ -1,5 +1,92 @@
 {
-    "layout": {
-        "text": "Hello world"
+  "header": {
+    "btn_operative": "OPERATIVE",
+    "btn_products": "PRODUCTS"
+  },
+  "util": {
+    "daysweek_long": {
+      "mon": "Monday",
+      "tue": "Tuesday",
+      "wed": "Wedndays",
+      "thu": "Thuesday",
+      "fri": "Friday",
+      "sat": "Saturday",
+      "sun": "Sunday"
+    },
+    "months_long": {
+      "jan": "january",
+      "feb": "february",
+      "mar": "march",
+      "apr": "april",
+      "may": "may",
+      "jun": "june",
+      "jul": "july",
+      "agu": "august",
+      "sep": "september",
+      "oct": "october",
+      "nov": "november",
+      "dic": "december"
+    },
+    "months_short": {
+      "jan": "JAN",
+      "feb": "FEB",
+      "mar": "MAR",
+      "apr": "APR",
+      "may": "MAY",
+      "jun": "JUN",
+      "jul": "JUL",
+      "agu": "AUG",
+      "sep": "SEP",
+      "oct": "OCT",
+      "nov": "NOV",
+      "dic": "DEC"
+    },
+    "of": "of",
+    "fav": {
+      "transfer": "Transfer",
+      "assignment": "Assignment",
+      "files": "Files"
+    },
+    "summary": {
+      "count_balance": "COUNT BALANCE",
+      "savings": "SAVINGS",
+      "investment": "INVESTMENT",
+      "financing": "FINANCING"
+    },
+    "nav_bar": {
+      "count_cards_tpv": {
+        "title": "COUNTS CARDS AND TPVS",
+        "subtitle_card": "Cards",
+        "subtitle_count": "Counts",
+        "subtitle": "Counts",
+        "opts_show_hiddens": "Show hiddens",
+        "opts_filter": "Filter results",
+        "card_title": "Payment salary",
+        "balance_available": "Available",
+        "msg_operations_sing": "New operation",
+        "msg_operations_plural": "New operations"
+      },
+      "financing": "FINANCING",
+      "foreign_trade": "FOREIGN TRADE",
+      "collections_payments": "COLLECTIONS AND PAYMENTS"
     }
+  },
+  "usermenu": {
+    "wlc_good_afternoon": "GOOD MORNING",
+    "wlc_good_morning": "GOOD AFTERNOON"
+  },
+  "footer": {
+    "link": {
+      "type_contracts": "TYPE CONTRACTS",
+      "revoke": "REVOKE",
+      "cgc_protocol": "C.G.C. PROTOCOLIZE",
+      "rates_quotes": "RATES AND QUOTES",
+      "news_board": "NEWS BOARD",
+      "exer_rights": "EXERCISE OF RIGHTS"
+    }
+  },
+  "side_bar": {
+    "title": "Recent activity",
+    "salary_payment": "Payment salary"
+  }
 }

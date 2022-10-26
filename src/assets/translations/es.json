@@ -1,5 +1,91 @@
 {
-  "layout": {
-    "text": "Hola Mundo"
+  "header": {
+    "btn_operative": "OPERATIVAS",
+    "btn_products": "PRODUCTOS"
+  },
+  "util": {
+    "daysweek_long": {
+      "mon": "Lunes",
+      "tue": "Martes",
+      "wed": "Miercoles",
+      "thu": "Jueves",
+      "fri": "Viernes",
+      "sat": "Sabado",
+      "sun": "Domingo"
+    },
+    "months_long": {
+      "jan": "enero",
+      "feb": "febrero",
+      "mar": "marzo",
+      "apr": "abril",
+      "may": "mayo",
+      "jun": "junio",
+      "jul": "julio",
+      "agu": "agosto",
+      "sep": "septiembre",
+      "oct": "octubre",
+      "nov": "noviembre",
+      "dic": "diciembre"
+    },
+    "months_short": {
+      "jan": "ENE",
+      "feb": "FEB",
+      "mar": "MAR",
+      "apr": "ABR",
+      "may": "MAY",
+      "jun": "JUN",
+      "jul": "JUL",
+      "agu": "AGO",
+      "sep": "SEP",
+      "oct": "OCT",
+      "nov": "NOV",
+      "dic": "DIC"
+    },
+    "of": "de",
+    "fav": {
+      "transfer": "Transferencia",
+      "assignment": "Traspasos",
+      "files": "Ficheros"
+    },
+    "summary": {
+      "count_balance": "SALDO CUENTAS",
+      "savings": "AHORRO",
+      "investment": "INVERSIÓN",
+      "financing": "FINANCIACIÓN"
+    },
+    "nav_bar": {
+      "count_cards_tpv": {
+        "title": "CUENTAS TARJETAS Y TPVS",
+        "subtitle_card": "Tarjetas",
+        "subtitle_count": "Cuentas",
+        "opts_show_hiddens": "Mmostrar ocultas",
+        "opts_filter": "Filtra resultados",
+        "card_title": "Pago nomina",
+        "balance_available": "Disponible",
+        "msg_operations_sing": "Movimiento nuevo",
+        "msg_operations_plural": "Movimientos nuevos"
+      },
+      "financing": "FINANCIACIÓN",
+      "foreign_trade": "COMERCIO EXTERIOR",
+      "collections_payments": "COBROS Y PAGOS"
+    }
+  },
+  "usermenu": {
+    "wlc_good_afternoon": "Buenas tardes",
+    "wlc_good_morning": "Buenas días"
+  },
+  "footer": {
+    "link": {
+      "type_contracts": "CONTRATOS TIPO",
+      "revoke": "REVOCACIÓN",
+      "cgc_protocol": "C.G.C. PROTOCOLIZADAS",
+      "rates_quotes": "TARIFAS Y COTIZACIONES",
+      "news_board": "BOLETIN NOTICIAS",
+      "exer_rights": "EJERCICIOS DE DERECHOS"
+    }
+  },
+  "side_bar": {
+    "title": "Actividad reciente",
+    "salary_payment": "Pago nóminas"
   }
 }
