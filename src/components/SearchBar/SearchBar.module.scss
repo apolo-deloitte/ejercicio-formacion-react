@@ -1,0 +1,23 @@
+@import "/src/assets/styles/index.scss";
+.search_input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #0b7ad0;
+  .input {
+    border: none;
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    &::placeholder {
+      color: #acdeffed;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+  .icon_search {
+    position: relative;
+    top: 2px;
+  }
+}
